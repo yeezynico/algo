@@ -20,6 +20,6 @@ function hasPair(arr, k) {  //on déclare une variable avec deux arguments en pa
   return false;  //si aucune paire trouvée
 }
 
-console.log(hasPair([10, 15, 3, 7], 17));
-console.log(hasPair([1, 8, 10, 21], 19));
+console.log(hasPair([10, 15, 3, 7], 17)); // true
+console.log(hasPair([1, 8, 10, 21], 19)); // false
 

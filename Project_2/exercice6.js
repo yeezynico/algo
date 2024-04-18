@@ -16,5 +16,5 @@ function sunsetView(buildingHeights) {  //on déclare une variable avec en param
   return count;  //enfin, on retourne le nombre d'immeubles avec vue sur l'ouest
 }
 
-console.log(buildingsWithSunsetView([3, 7, 8, 3, 6, 1]));
-console.log(buildingsWithSunsetView([1, 4, 5, 8]));
+console.log(sunsetView([3, 7, 8, 3, 6, 1]));
+console.log(sunsetView([1, 4, 5, 8]));
